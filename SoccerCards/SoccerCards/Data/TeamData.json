@@ -1,0 +1,188 @@
+﻿{
+  "Groups": [
+    {
+      "UniqueId": "1",
+      "Title": "Premier Picks 1993",
+      "Subtitle": "",
+      "Description": "",
+      "Teams": [
+        {
+          "UniqueId": "1001",
+          "Team": "Leeds United"
+        },
+        {
+          "UniqueId": "1002",
+          "Team": "Manchester Utd"
+        },
+        {
+          "UniqueId": "1003",
+          "Team": "Sheffield Wed"
+        },
+        {
+          "UniqueId": "1004",
+          "Team": "Arsenal"
+        },
+        {
+          "UniqueId": "1005",
+          "Team": "Manchester City"
+        },
+        {
+          "UniqueId": "1006",
+          "Team": "Liverpool"
+        },
+        {
+          "UniqueId": "1007",
+          "Team": "Aston Villa"
+        },
+        {
+          "UniqueId": "1008",
+          "Team": "Notts Forest"
+        },
+        {
+          "UniqueId": "1009",
+          "Team": "Sheffield Utd"
+        },
+        {
+          "UniqueId": "1010",
+          "Team": "Crystal Palace"
+        },
+        {
+          "UniqueId": "1011",
+          "Team": "Q.P.R."
+        },
+        {
+          "UniqueId": "1012",
+          "Team": "Everton"
+        },
+        {
+          "UniqueId": "1013",
+          "Team": "Wimbledon"
+        },
+        {
+          "UniqueId": "1014",
+          "Team": "Chelsea"
+        },
+        {
+          "UniqueId": "1015",
+          "Team": "Tottenham"
+        },
+        {
+          "UniqueId": "1016",
+          "Team": "Southampton"
+        },
+        {
+          "UniqueId": "1017",
+          "Team": "Oldham Athletic"
+        },
+        {
+          "UniqueId": "1018",
+          "Team": "Norwich City"
+        },
+        {
+          "UniqueId": "1019",
+          "Team": "Coventry City"
+        },
+        {
+          "UniqueId": "1020",
+          "Team": "Ipswich Town"
+        },
+        {
+          "UniqueId": "1021",
+          "Team": "Middlesborough"
+        },
+        {
+          "UniqueId": "1022",
+          "Team": "Blackburn Rovers"
+        }
+      ]
+    },
+    {
+      "UniqueId": "2",
+      "Title": "Premier Picks 2017",
+      "Subtitle": "",
+      "Description": "",
+      "Teams": [
+        {
+          "UniqueId": "2001",
+          "Team": "Leicester City"
+        },
+        {
+          "UniqueId": "2002",
+          "Team": "Arsenal"
+        },
+        {
+          "UniqueId": "2003",
+          "Team": "Tottenham"
+        },
+        {
+          "UniqueId": "2004",
+          "Team": "Manchester City"
+        },
+        {
+          "UniqueId": "2005",
+          "Team": "Southampton"
+        },
+        {
+          "UniqueId": "2006",
+          "Team": "Manchester Utd"
+        },
+        {
+          "UniqueId": "2007",
+          "Team": "West Ham Utd"
+        },
+        {
+          "UniqueId": "2008",
+          "Team": "Liverpool"
+        },
+        {
+          "UniqueId": "2009",
+          "Team": "Stoke City"
+        },
+        {
+          "UniqueId": "2010",
+          "Team": "Chelsea"
+        },
+        {
+          "UniqueId": "2011",
+          "Team": "Everton"
+        },
+        {
+          "UniqueId": "2012",
+          "Team": "Swansea"
+        },
+        {
+          "UniqueId": "2013",
+          "Team": "Watford"
+        },
+        {
+          "UniqueId": "2014",
+          "Team": "W.B.A."
+        },
+        {
+          "UniqueId": "2015",
+          "Team": "Crystal Palace"
+        },
+        {
+          "UniqueId": "2016",
+          "Team": "Bournemouth"
+        },
+        {
+          "UniqueId": "2017",
+          "Team": "Sunderland"
+        },
+        {
+          "UniqueId": "2018",
+          "Team": "Newcastle Utd"
+        },
+        {
+          "UniqueId": "2019",
+          "Team": "Norwich"
+        },
+        {
+          "UniqueId": "2020",
+          "Team": "Aston Villa"
+        }
+      ]    
+    }
+  ]
+}
