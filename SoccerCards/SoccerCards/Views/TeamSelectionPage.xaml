@@ -4,5 +4,7 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="SoccerCards.Views.TeamSelectionPage">
-
+  <StackLayout VerticalOptions="CenterAndExpand">
+    <Label Text="Team Selection"></Label>
+  </StackLayout>
 </ContentPage>

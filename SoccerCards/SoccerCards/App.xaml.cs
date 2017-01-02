@@ -11,13 +11,12 @@ namespace SoccerCards
     {
       InitializeComponent();
 
-      NavigationService.NavigateAsync("MainPage?title=Hello%20from%20Xamarin.Forms");
+      NavigationService.NavigateAsync("MainPage");
     }
 
     protected override void RegisterTypes()
     {
-      Container.RegisterTypeForNavigation<MainPage>();
-      Container.RegisterTypeForNavigation<PrismMasterDetailPage1>();
+      Container.RegisterTypeForNavigation<MainPage>();      
       Container.RegisterTypeForNavigation<TeamSelectionPage>();
       Container.RegisterTypeForNavigation<GameSettingsPage>();
       Container.RegisterTypeForNavigation<FixturesPage>();

@@ -7,29 +7,34 @@ using System.Linq;
 
 namespace SoccerCards.ViewModels
 {
-  public class MainPageViewModel : BindableBase, INavigationAware
+  public class MainPageViewModel : BindableBase
   {
-    private string _title;
-    public string Title
+
+    INavigationService _navigationService;
+
+    private string _value = "paramGameType";
+
+    public string Value
     {
-      get { return _title; }
-      set { SetProperty(ref _title, value); }
+      get { return _value; }
+      set { SetProperty(ref _value, value); }
     }
 
-    public MainPageViewModel()
-    {
+    public DelegateCommand NavigateCommand { get; private set; }    
 
+    public MainPageViewModel(INavigationService navigationService)
+    {
+      _navigationService = navigationService;
+      NavigateCommand = new DelegateCommand(Navigate);
     }
 
-    public void OnNavigatedFrom(NavigationParameters parameters)
+    private void Navigate()
     {
+      var p = new NavigationParameters();
+      p.Add("id", Value);
 
+      _navigationService.NavigateAsync("TeamSelectionPage", p);
     }
 
-    public void OnNavigatedTo(NavigationParameters parameters)
-    {
-      if (parameters.ContainsKey("title"))
-        Title = (string)parameters["title"] + " and Prism";
-    }
   }
 }

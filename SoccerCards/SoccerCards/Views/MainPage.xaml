@@ -5,7 +5,14 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="SoccerCards.Views.MainPage"
              Title="MainPage">
-  <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
-  </StackLayout>
+  <ContentView x:Name="contentView" Padding="0,0,0,0" ControlTemplate="{StaticResource MenuTemplate}">
+		<StackLayout VerticalOptions="CenterAndExpand">			
+			<Button Text="Premier Picks - Classic 1993" Command="{Binding NavigateCommand}" NavigationParameters="GameType=1" />
+      <Button Text="Soccer Cards - Mobile 2016" Command="{Binding NavigateCommand}" NavigationParameters="GameType=2" />      
+		</StackLayout>
+	</ContentView>
+  <ContentPage.ToolbarItems>    
+    <ToolbarItem Name = "Help"></ToolbarItem>
+    <ToolbarItem Name = "About"></ToolbarItem>
+   </ContentPage.ToolbarItems>
 </ContentPage>
